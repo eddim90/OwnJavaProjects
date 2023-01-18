@@ -1,0 +1,41 @@
+
+Guest details:
+Name: Gabi
+Number of residents: 1
+Number of nights: 2
+Room type: SUPERIOR
+Extra bed: No
+Breakfast included: Yes
+---------------------------------------------------------------- 
+Guest details:
+Name: n
+Number of residents: 3
+Number of nights: 2
+Room type: SUPERIOR
+Extra bed: No
+Breakfast included: No
+---------------------------------------------------------------- 
+Guest details:
+Name: Adam
+Number of residents: 3
+Number of nights: 2
+Room type: SUPERIOR
+Extra bed: No
+Breakfast included: No
+---------------------------------------------------------------- 
+Guest details:
+Name: adam
+Number of residents: 2
+Number of nights: 3
+Room type: KING
+Extra bed: No
+Breakfast included: Yes
+---------------------------------------------------------------- 
+Guest details:
+Name: Adam
+Number of residents: 3
+Number of nights: 2
+Room type: STANDARD
+Extra bed: No
+Breakfast included: Yes
+------------------------------------------------------- 

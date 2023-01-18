@@ -1,0 +1,9 @@
+
+Guest details:
+Name: Kiss Béla
+Number of residents: 3
+Number of nights: 4
+Room type: STANDARD
+Extra bed: Yes
+Breakfast included: Yes
+------------------------------------------------------- 

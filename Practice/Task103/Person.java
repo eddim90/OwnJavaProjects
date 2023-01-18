@@ -23,7 +23,6 @@ public class Person {
 
     }
 
-
     public Person(int age, int bodyWeight) {
         this.age = age;
         this.bodyWeight = bodyWeight;
@@ -39,15 +38,12 @@ public class Person {
         this.isHappy = isHappy;
 
     }
-
     public void setBodyWeight(int bodyWeight) {
         this.bodyWeight = bodyWeight;
     }
-
     public void setAge(int age) {
         this.age = age;
     }
-
 
     @Override
     public String toString() {
@@ -57,11 +53,10 @@ public class Person {
                 " Place of birth: " + birthPlace + "\n" +
                 " Date of birth: " + birthDate + "\n" +
                 " List of favorite movies: " + favoriteMovies + "\n" +
-                " Are you happy? " + (isHappy ? "Yes": "No") + "\n" +
+                " Are you happy? " + (isHappy ? "Yes" : "No") + "\n" +
                 " Height: " + bodyHeight + " Cm" + "\n" +
                 " Weight: " + bodyWeight + " Kg" + "\n" +
                 " Age: " + age + "\n" +
                 ' ';
     }
-
 }

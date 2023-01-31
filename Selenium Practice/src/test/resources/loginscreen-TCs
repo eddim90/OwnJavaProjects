@@ -1,0 +1,13 @@
+LoginScreen TCs
+
+- TC1: valid username empty pwd
+- TC2: empty username valid pwd
+- TC3: empty username and pwd
+- TC4: valid username wrong pwd
+- TC5: wrong username valid pwd
+- TC6: wrong username and pwd
+- TC7: valid username and pwd
+- TC8: empty username and wrong pwd
+- TC9: wrong username and empty pwd
+- TC10: username and pwd placeholder
+- TC11: is pwd field masked? the "type" of the input field "password" or not?

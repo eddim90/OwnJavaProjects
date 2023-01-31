@@ -1,0 +1,17 @@
+Inventory Screen TCs
+
+- TC1: default sort option is Name (A to Z)
+- TC2: in sort option Name (A to Z) the first item is: Sauce Labs Backpack
+- TC3: in sort option Name (Z to A) the first item is: Test.allTheThings() T-Shirt (Red)
+- TC4: in sort option Price (low to high) the first item is: Sauce Labs Onesie
+- TC5: in sort option Name (high to low) the first item is: Sauce Labs Fleece Jacket
+- TC6: clicking on item picture redirects to the item detail page
+- TC7: clicking on item title redirects to the item detail page
+- DELETED TC8: clicking on the "Add to Cart" button changes the cart icon
+- TC9: clicking on the "Add to Cart" button on multiple items. Check if the cart icon shows the correct number
+- TC10: clicking on the "Add to Cart" button changes the button text to remove
+- TC11: clicking on the "Add to Cart" button and then the remove button. the cart icon changes back to the original icon
+- TC12: add multiple items to the cart. remove one of them. check that the cart icon shows the correct number of items
+- TC13: add multiple items to the cart. remove one of them. check that only one item remains on the checkout page and it's the correct one.
+- TC14: clicking on the cart icon navigates to the cart page.
+- TC15: navigate to item details page and open the menu, click on "All items" menu item and validate the url

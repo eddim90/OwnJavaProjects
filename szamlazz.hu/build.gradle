@@ -1,0 +1,80 @@
+plugins {
+    id 'java'
+}
+
+group 'hu.progmatic.testframework'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'io.rest-assured:rest-assured:5.3.0'
+    testImplementation 'org.testng:testng:7.7.1'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.7.2'
+    implementation 'io.cucumber:cucumber-java:7.11.1'
+    implementation 'io.cucumber:cucumber-testng:7.11.1'
+    implementation 'com.google.code.gson:gson:2.7'
+}
+test {
+    useTestNG()
+}
+test{
+    useTestNG{
+        useDefaultListeners = true
+        println(getTestReportDir())
+    }
+}
+
+task smokeTests(type: Test) {
+    def groups = System.getProperty('groups', 'smoke')
+    useTestNG() {
+        includeGroups groups
+    }
+}
+task featureTests(type: Test) {
+    def groups = System.getProperty('groups', 'feature')
+    useTestNG() {
+        includeGroups groups
+    }
+}
+task loginTests(type: Test) {
+    def groups = System.getProperty('groups', 'login')
+    useTestNG() {
+        includeGroups groups
+    }
+}
+task newInvoiceTests(type: Test) {
+    def groups = System.getProperty('groups', 'newInvoice')
+    useTestNG() {
+        includeGroups groups
+    }
+}
+task pwdReminderTests(type: Test) {
+    def groups = System.getProperty('groups', 'pwdTest')
+    useTestNG() {
+        includeGroups groups
+    }
+}
+task registrationTests(type: Test) {
+    def groups = System.getProperty('groups', 'registration')
+    useTestNG() {
+        includeGroups groups
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
